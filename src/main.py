@@ -150,6 +150,7 @@ def main():
 		count= len([name for name in os.listdir(DIR) if os.path.isfile(os.path.join(DIR, name))])
 		for i in range(count):
 			path='./result/mod_images/'+str(i)+'.png'
+			# path = '../data/test.png'
 			infer(model,path)
 		##infer(model, FilePaths.fnInfer1)
 		print("Final string : \n{}".format(finalString))

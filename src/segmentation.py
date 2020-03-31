@@ -20,7 +20,7 @@ path='./result/'
 
 #Taking any image from the sample images
 #In case of slanted image, straighten it using image-straighten.py, then use it
-img = cv.imread('./sample_images/r1.jpg')
+img = cv.imread('./sample_images/Screenshot_5.png')
 
 # In[findFeaturPoints]
 def findCapPoints(img):
